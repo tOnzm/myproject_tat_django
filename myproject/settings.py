@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-g*0xtq2^brsaz4n@h+h8%xv(g&zw2g&%tnzn_w)8#hkj-obxao'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = false 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [https://tonzm.github.io/myproject_tat_django/]
 
 
 # Application definition
