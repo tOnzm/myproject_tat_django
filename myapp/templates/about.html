@@ -1,4 +1,6 @@
 {% extends "base.html" %}
+{% load static %}
+
 
 {% block title%}
 <title>หน้าแรก</title>
@@ -9,7 +11,7 @@
 <h2 class="text-center">แบบฟอร์ม</h2>
 
 
-<form method="post" action="about">
+<form method="post" action="about" class="container">
     {% csrf_token %}
     <div class="form-group">
         <label for="name">ชื่อ</label>

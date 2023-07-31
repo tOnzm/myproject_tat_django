@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+
+body{
+  font-family: Prompt,sans-serif;
+}
+
+*{
+  font-family: Prompt,sans-serif;
+}
+
+h1{
+  font-family: 'Chonburi', cursive;
+}
+
+a{
+  font-family: Prompt,sans-serif;
+}
+
+.tab-content {
+  font-family: Prompt,sans-serif;
+}
+
+.nav-link{
+  font-family: Prompt,sans-serif;
+}
+
+h2.card-title{
+  font-family: Prompt,sans-serif;
+  font-size: 24px;
+  height: 52px;
+  line-height: 26px;
+  margin-bottom: 16px;
+  font-weight: 600;  
+} 
+
+
+
+.card-text .text-muted{
+  font-family: Prompt,sans-serif;
+  font-size: 0.75rem;
+}
+
+.bi {
+  max-width: 0.75rem; 
+}
+
+.card-body{
+  box-shadow: 0px 10px 13px 0px rgba(0,0,0,0.1);
+  border: none;
+}
+
+.btn-all {
+  border-color: #1c4e84;
+  border-radius: 0;
+  border: 0.125rem solid;
+  box-shadow: none;
+  color: #1c4e84;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: Prompt,sans-serif;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-all .bi {
+  color: #1c4e84;
+  font-size: 1.125rem;
+  margin-left: 0.5rem;
+  width: 0.875em;
+  font-weight: 700;
+  overflow: visible;
+}
+
+.label{
+  font-family: Prompt,sans-serif;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.desc{
+  font-family: Prompt,sans-serif;
+  font-weight: 300;
+}
